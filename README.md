@@ -1,5 +1,5 @@
  
-$Referral System
+Referral System
 A simple and flexible solution for referring customers.
 
 Team
