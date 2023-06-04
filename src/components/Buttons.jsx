@@ -1,15 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Button(props){
+function CustomButton(props){
     return(
-        <button type="submit" class="btn btn-primary" id={props.className}>{props.name}</button>
+        <button type="submit" class="btn btn-primary" id={props.className} >{props.name}</button>
     )
 }
 
-function ButtonActive(props){
+function CustomButtonActiveNavigate(props){
     return(
-        <button type="submit" class="btn btn-primary" id={props.className}>{props.name}</button>
+        <Link to={props.path} >
+            <button class="btn btn-primary" id={props.className} >{props.name}</button>
+        </Link>
+        
     )
 }
 
-export {Button, ButtonActive};
+export {CustomButton, CustomButtonActiveNavigate};

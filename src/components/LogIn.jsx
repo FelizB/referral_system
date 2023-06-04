@@ -1,18 +1,14 @@
 import React from "react";
-import "./css/entries.css"
-import {InputField} from "./Entry";
-import { Button, ButtonActive} from "./Buttons";
+import "./css/entries.css";
+import SignLayout from "./SignLayout";
+import LowerPlaceholder from "./LowerPlaceholder";
+import {InputField, PasswordField} from "./Entry";
+import {CustomButton, CustomButtonActiveNavigate} from "./Buttons";
 
-function Login(){
+function Login(props){
     return(
         <div className="LoginContainer" >
-        <div className="grid1">
-            <section className="section">
-                <h5>Welcome to <br></br>Referral Board</h5>
-                <p>Get your Reward!!!</p>
-            </section>
-            
-        </div>
+        <SignLayout />
         <div className="grid2">
         <form className="inputForm" name="Form1" method="POST" >
             <div>
@@ -24,16 +20,17 @@ function Login(){
             <br></br>
             <br></br>
             <InputField label="Username"/>
-            <InputField label="Password" type="password"/>
+            <PasswordField label="Password" type="password"/>
             <p className="password">Forgot your Password?</p>
             </div>
             <br></br>
             <div>
-            <Button className="button" name="Sign in" />
-            <Button  className="buttonActive" name="Register" />
+            <CustomButton className="button" name="Sign in" />
+            <CustomButtonActiveNavigate  className="buttonActive" name="Register" path="/signup"/>
             </div>
+            <br></br>
             <div className="LogFooter">
-                <p>This is the lowerpart</p>
+                <LowerPlaceholder />
             </div>
 
         </form>

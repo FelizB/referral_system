@@ -8,15 +8,15 @@
     overflow: auto;
 }
 .grid1{
-
     grid-column: inherit;
     background-color:  #831615;
-   
+  
 }
 .section{
   margin:20% 5% 5% 5%;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  position:fixed;
 }
 .section h5{
   font-size: 3rem;
@@ -35,7 +35,9 @@
     margin-bottom: 2.0rem;
   }
   
-  input[type="text"] {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
     font-size: 1rem;
     padding: 0.5rem;
     border: none;
@@ -44,6 +46,10 @@
   }
  
   input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="password"]:valid,
+  input[type="email"]:valid,
   input[type="text"]:valid {
     outline: none;
   }
@@ -60,6 +66,10 @@
   }
   
   input[type="text"]:focus ~ label,
+  input[type="email"]:focus ~ label,
+  input[type="password"]:focus ~ label,
+  input[type="password"]:valid ~ label,
+  input[type="email"]:valid ~ label,
   input[type="text"]:valid ~ label {
     top: -1.8rem;
     font-size: 0.9rem;
@@ -94,11 +104,75 @@
    }
   .LogFooter{
     position: fixed;
-    min-height: 8%;
+    max-height: 10%;
     bottom: 0;
     left: 67%;
-    width: 33%;
-    background-color: rgb(180, 177, 194);
+    background-color: #ffffff;
+    font-size: 1rem;
+    border-top: 2px solid #ccc;
+    width: 100%;
   }
-  
-  
+  .startIcon{
+    margin-left:-16px;
+    height:0.9rem !important;
+    width: 0.9rem !important;
+  }
+  .materialbutton{
+    text-transform: none !important;
+    margin-top: -50px !important;
+    padding-inline: 1.2rem !important;
+    margin-left: -4px !important;
+
+  }
+  .materialbutton:hover{
+    background-color: rgba(131, 22, 21, 1) !important;
+    color: white !important;
+    
+  }
+  .sectButton{
+    text-transform: none !important;
+    width: 20%;
+
+  }
+  .globeIcon{
+    position: absolute;
+    left:2rem;
+    top: 0.3rem;
+    height:1.9rem !important;
+    width: 1.9rem !important;
+    color: #831615;
+  }
+  .ArrowDownIcon{
+    position: absolute;
+    right: 1rem;
+    top: 0.6rem;
+  }
+  .forumIcon{
+    height: 4rem;
+    width: 4rem ;
+    border-radius:50% !important;
+    position: relative !important;
+    background-color: #831615 !important;
+    right:-4.8rem;
+    scale:0.7;
+  }
+  .forumIcon2{
+    color: #ffffff;
+  }
+  .check{
+    display:flex;
+  }
+  .check h6{
+    margin-left:10px;
+    margin-top:2px;
+  }
+  div .customButtondiv{
+    margin-top: 1.5rem;
+  }
+  .Linkdata,
+  .Linkdata:focus,
+  .Linkdata:Active,
+  .Linkdata:hover{
+    color:black;
+  }
+
