@@ -161,7 +161,7 @@
     position: relative !important;
     background-color: #831615 !important;
     right:-4.8rem;
-    scale:0.7;
+    transform: scale(0.7);
   }
   .forumIcon2{
     color: #ffffff;
