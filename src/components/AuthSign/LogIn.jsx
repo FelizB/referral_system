@@ -2,8 +2,8 @@ import React from "react";
 import "./css/entries.css";
 import SignLayout from "./SignLayout";
 import LowerPlaceholder from "./LowerPlaceholder";
-import {InputField, PasswordField} from "./Entry";
-import {CustomButton, CustomButtonActiveNavigate} from "./Buttons";
+import {InputField, PasswordField} from "../item_components/Entry";
+import {CustomButton, CustomButtonActiveNavigate} from "../item_components/Buttons";
 
 function Login(props){
     return(

@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./css/entries.css";
-import {InputField, PasswordField, ConfirmPasswordField, EmailField, CheckboxField} from "./Entry";
-import { CustomButton, CustomButtonActive} from "./Buttons";
+import {InputField, PasswordField, ConfirmPasswordField, EmailField, CheckboxField} from "../item_components/Entry";
+import { CustomButton} from "../item_components/Buttons";
 import Button from '@mui/material/Button';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { Link } from "react-router-dom";
@@ -29,7 +29,7 @@ function Login(){
             <InputField label="Provide a Username"/>
             <EmailField label="Enter your Email"/>
             <PasswordField label="Create Password" type="password"/>
-            <PasswordField label="Confirm Password" type="password"/>
+            <ConfirmPasswordField label="Confirm Password" type="password"/>
             </div>
             <br></br>
             <div className="check">

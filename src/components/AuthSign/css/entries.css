@@ -53,6 +53,7 @@
   input[type="text"]:valid {
     outline: none;
   }
+
   .form-control:focus{
         border-color:#831615;
         box-shadow: 0 0 0 0.05rem #831615;
@@ -69,11 +70,11 @@
   input[type="email"]:focus ~ label,
   input[type="password"]:focus ~ label,
   input[type="password"]:valid ~ label,
-  input[type="email"]:valid ~ label,
   input[type="text"]:valid ~ label {
     top: -1.8rem;
     font-size: 0.9rem;
   }
+
   .inputForm h3{
     font-weight:600;
     margin-bottom: 2.0rem;
@@ -95,12 +96,18 @@
    background-color:#7e7b7b;
    border:#7e7b7b;
   }
+
   #buttonActive{
     margin-right: 2rem;
     padding-inline: 1.8rem;
     padding-block: 0.8rem;
     background-color:#831615;
     border:#831615;
+   }
+   #buttonActive:active,
+   #buttonActive:Hover{
+    background-color:#c50f0c;
+    border:#c50f0c;
    }
   .LogFooter{
     position: fixed;
