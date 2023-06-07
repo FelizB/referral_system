@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .navbar{
     min-width: 100%;
-    border: solid green; 
-    border-bottom: 2px solid #ccc;
-    
+    max-height: 10vh;
+    background-color: transparent !important;
+    position: sticky;
+    top: 0;
 }
 .navbar-brand{
-    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight:bold;
     padding-inline: 1rem;
-
+}
+.navbar-brand span{
+    color: #973320;
+    font-weight: bolder;
+    font-size: 3rem;
 }
 .nav-items-container{
-    border: solid yellow;
+    padding: 2px;
 }
 .nav-items-container ul{
     display: flex;
@@ -37,4 +47,128 @@
     font-size: 0.9rem;
     padding: 10px;
     width: 5rem;
+}
+
+.bodySection .container{
+    min-height: 100vh;
+}
+.bodySection h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #38424d;
+}
+.bodySection img{
+    height:500px;
+    width: 400px;
+}
+.header-hero-content h1{
+    font-weight: 2000;
+
+}
+.header-hero-content{
+    padding-top: 30%;
+    font-weight: bold;
+
+}
+.text span{
+    color: #973320;
+}
+.btn{
+    background-color: #973320 !important;
+    border-color: #973320;
+}
+.btn:hover{
+    background-color: #b8381e !important;
+    border-color: #c94227;
+}
+ 
+.header-image img{
+    margin:3.5rem 0rem 0rem -5rem;
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid{
+    display: grid;
+    width: 114em;
+    grid-gap: 4rem;
+    grid-template-columns: auto auto auto;
+    align-items: start;
+
+}
+.grid-title{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.grid-item{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.grid-item:hover{
+    transform: translate(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(70, 33, 33, 0.5);
+}
+
+.card{
+    padding: 3rem;
+    text-align: center;
+}
+.card img{
+    display: block;
+    max-height: 13rem;
+    max-width: 15rem;
+}
+.card h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+}
+.card p{
+    font-size:1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+
+.faq-container{
+    max-height: 90vh;
+    overflow: auto;
+}
+.faq-container .card{
+    border:solid 1px rgba(151, 51, 32, 0.5);
+    padding: 0;
+}
+.card-header{
+    padding: 0;
+}
+.faq-button{
+    padding: 1rem !important ;
+    width: 100%;
+    background-color:rgb(243, 216, 211) !important;
+    
+}
+.faq-button .enIcon{
+    position: absolute;
+    right: 25px;
+    top:1.3rem;
+    transform: rotate(-90deg);
+    fill: #973320;
+  
+}
+.faq-button:hover{
+    background-color:rgb(243, 216, 211) !important;
+}
+.faq-button h6{
+    color: aliceblue;
 }
