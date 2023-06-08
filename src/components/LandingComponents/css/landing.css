@@ -4,6 +4,25 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    min-height: 100vh;
+}
+.features-container{
+    background-color: #fff;
+}
+.land-container{
+    background-color: #fff;
+}
+.testimoninal-container{
+    background-color: #fff;
+}
+.faq-container{
+    background-color: #fff;
+}
+.footer-container{
+    background-color: #fff;
+}
+
 .navbar{
     min-width: 100%;
     max-height: 10vh;
@@ -49,15 +68,13 @@
     width: 5rem;
 }
 
-.bodySection .container{
-    min-height: 100vh;
-}
-.bodySection h1{
+
+.features-Section h1{
     font-size: 42px;
     font-weight: 700;
     color: #38424d;
 }
-.bodySection img{
+.features-Section img{
     height:500px;
     width: 400px;
 }
@@ -140,10 +157,15 @@
     color: #3d3d3d;
     margin-bottom: 2.5rem;
 }
-
+.faq-image-container{
+    overflow: unset;
+}
+.faq-image-container img{
+    height: 70%;
+}
 .faq-container{
     max-height: 90vh;
-    overflow: auto;
+ 
 }
 .faq-container .card{
     border:solid 1px rgba(151, 51, 32, 0.5);
@@ -171,4 +193,49 @@
 }
 .faq-button h6{
     color: aliceblue;
+}
+
+.footer-start{
+    min-height: 40vh;
+}
+.footer-middle{
+    min-height:50vh;
+    padding: 2rem;
+
+}
+.footer-middle ul{
+    list-style-type: none;
+}
+.footer-middle .col-md-4 {
+    padding: 2rem;
+}
+.footer-middle .col-md-4 .information{
+    padding: 2rem;
+}
+.footer-middle .col-md-4 ul{
+    display: flex;
+    margin-left: -4.5rem;
+}
+.footer-middle .col-md-4 li{
+    margin-left: 2.5rem;
+}
+.footer-middle ul .li{
+    margin-left: -2.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: lig;
+    margin-top: 3px;
+    padding: 7px;
+}
+.col{
+    padding:2rem;
+}
+.col h4{
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.footer-end{
+    min-height: 10vh;
+    text-align: center;
 }
