@@ -20,7 +20,7 @@ function Landingpage(){
         <div className="testimoninal-container">
             <Testimonial />
         </div>
-        <div className="faq-container">
+        <div className="faq-contained">
             <Faq />
         </div>
         <div className="footer-container">

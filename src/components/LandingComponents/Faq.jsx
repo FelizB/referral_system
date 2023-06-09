@@ -7,14 +7,17 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 function Faq(){
     return(
-        <div className="container">
-            <div className="row align-items-center justify-content-center justify-content-lg-between">
+    <div className="container">
+        <div className="grid-title">
+            <h1>The Benefits</h1>
+        </div>
+        <div className="row align-items-center justify-content-center justify-content-lg-between">
             <div className="col-6 faq-image-container">
                 <img src={TeamUp} alt="description"/>
             </div>
             <div className="col-6 faq-container">
                 <div id="accordion">
-                    <div className="card">
+                    <div className="card ">
                         <div className="card-header" id="headingOne" >
                             <Button className="btn faq-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" 
                             aria-controls="collapseOne"  endIcon={<ArrowBackIosNewIcon className="enIcon"/>}>
@@ -96,12 +99,9 @@ function Faq(){
                     </div>
                     
                 </div>
-
-            
-
             </div>
         </div>
-        </div>
+    </div>
     )
 }
 export default Faq;

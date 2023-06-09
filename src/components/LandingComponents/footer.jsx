@@ -1,20 +1,87 @@
 import React from "react";
 import "./css/landing.css";
+import { Link } from "react-router-dom";
+import Analysis from "../assets/images/analysis.svg";
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
+import LanguageIcon from '@mui/icons-material/Language';
+import PlaceIcon from '@mui/icons-material/Place';
+import LocationCityIcon from '@mui/icons-material/LocationCity';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 function Footer(){
         const year= new Date().getFullYear();
     return(
-        <div className="container">
-            <div className="footer-start">
+            <div>
+            <div className="container">
+            <div className="grid-title">
+                    <h1>The Benefits</h1>
+                </div>
+                <div className="footer-start">
+                    <div>
+                        <div> stars goes here</div>
+                        <div>
+                            <h3>An <strong>award-winning</strong> platform. <strong>Loved</strong> by Customers</h3>
+                            <p>Based on 10,000+ customer reviews</p>
+                        </div>
 
-            </div>
+                    </div>
+                    <div>
+                        <div className="item-container">
+                            <div className="row">
+                                <div className="col-sm grid-item">
+                                    <div class="card">
+                                        <img class="card-img-top" src="..." alt="test"/>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-sm grid-item">
+                                    <div class="card">
+                                        <img class="card-img-top" src="..." alt="test"/>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-sm grid-item">
+                                    <div class="card">
+                                        <img class="card-img-top" src="..." alt="test"/>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Get the best employee for the period <strong>with Referral Board</strong></h3>
+                            <h5>Easy and Simple to use "*" Efficient and trasparent processes  </h5>
+                        </div>
+                        <Link to="/sign"><button type="button" class="btn btn-primary btn-lg">Get started</button></Link>
+
+                    </div>
+
+                </div>
+        </div>
+        <div className="container container-footer">
             <hr />
             <div className="footer-middle">
                 <div className="row">
                 <div className="col-md-4">
                     <div className="information">
-                    <h3>Rf board</h3>
+                    <h2><span>Rf</span> board</h2>
                     </div>
                     <div>
                         <p>
@@ -25,10 +92,11 @@ function Footer(){
                     </div>
                     <div className="social">
                         <ul>
-                            <li>FB</li>
-                            <li>Ln</li>
-                            <li>in</li>
-                            <li>T</li>
+                            <li><FacebookIcon className="icons"/></li>
+                            <li><TwitterIcon className="icons"/></li>
+                            <li><InstagramIcon className="icons"/></li>
+                            <li><LinkedInIcon className="icons"/></li>
+                            <li><YouTubeIcon className="icons"/></li>
                         </ul>
                     </div>
                 </div>
@@ -52,14 +120,14 @@ function Footer(){
                         <li className="li">Site Map</li>
                     </ul>
                 </div>
-                <div className="col">
-                    <h4>Quick Links</h4>
+                <div className="col-md-3">
+                    <h4>Contact Us</h4>
                     <ul>
-                        <li className="li">+25470000000</li>
-                        <li className="li">test@gmail.com</li>
-                        <li className="li">www.referralboard.com</li>
-                        <li className="li">123 street Nairobi, Kenya</li>
-                        <li className="li">Center Towers</li>
+                        <li className="li" ><LocalPhoneIcon className="icons"/> +25470000000</li>
+                        <li className="li"><EmailIcon className="icons"/>test@gmail.com</li>
+                        <li className="li"><LanguageIcon className="icons"/>www.referralboard.com</li>
+                        <li className="li"><PlaceIcon className="icons"/>123 street Nairobi, Kenya</li>
+                        <li className="li"><LocationCityIcon className="icons"/>Center Towers</li>
                     </ul>
 
                 </div>
@@ -70,6 +138,7 @@ function Footer(){
               <h6>Copyright @ {year} Referral Board</h6>
 
             </div>
+        </div>
         </div>
     )
 }

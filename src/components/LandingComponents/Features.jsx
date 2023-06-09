@@ -9,8 +9,8 @@ function Features(){
                     <h1>The Benefits</h1>
                 </div>
                 <div className="item-container">
-                  <div className="grid">
-                        <div className="grid-item">
+                  <div className="row">
+                        <div className="col-sm grid-item">
                             <div className="card">
                                 <img calssName="card-img" src={Analysis} alt="feature1"/>
                                 <div >
@@ -22,7 +22,7 @@ function Features(){
                             </div>
                         </div>
 
-                        <div className="grid-item">
+                        <div className="col-sm grid-item">
                             <div className="card">
                                 <img calssName="card-img" src={Analysis} alt="feature1"/>
                                 <div >
@@ -33,7 +33,7 @@ function Features(){
 
                             </div>
                         </div>
-                        <div className="grid-item">
+                        <div className="col-sm grid-item">
                             <div className="card">
                                 <img calssName="card-img" src={Analysis} alt="feature1"/>
                                 <div >

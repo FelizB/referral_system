@@ -15,6 +15,9 @@ function Testimonial(){
    
     return(
         <div className="container">
+        <div className="grid-title">
+                    <h1>The Benefits</h1>
+        </div>
         <Swiper
         effect={"coverflow"}
         grabCursor={true}
