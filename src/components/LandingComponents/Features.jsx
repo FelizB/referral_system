@@ -7,6 +7,10 @@ function Features(){
          <div className="container features-Section">
                 <div className="grid-title">
                     <h1>The Benefits</h1>
+                    <div>
+                    <h3>An <strong>award-winning</strong> platform. <strong>Loved</strong> by Customers</h3>
+                    <p>Based on 10,000+ customer reviews</p>
+                </div>
                 </div>
                 <div className="item-container">
                   <div className="row">

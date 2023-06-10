@@ -11,13 +11,14 @@ function Faq(){
         <div className="grid-title">
             <h1>The Benefits</h1>
         </div>
-        <div className="row align-items-center justify-content-center justify-content-lg-between">
-            <div className="col-6 faq-image-container">
+       <div className="">
+        <div className="row justify-content-lg-between ">
+            <div className="col-lg-4 col-md-6 faq-image-container align-items-center justify-content-center ">
                 <img src={TeamUp} alt="description"/>
             </div>
-            <div className="col-6 faq-container">
+            <div className="col-lg-6 col-md-10 faq-container">
                 <div id="accordion">
-                    <div className="card ">
+                    <div className="card">
                         <div className="card-header" id="headingOne" >
                             <Button className="btn faq-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" 
                             aria-controls="collapseOne"  endIcon={<ArrowBackIosNewIcon className="enIcon"/>}>
@@ -100,6 +101,7 @@ function Faq(){
                     
                 </div>
             </div>
+        </div>
         </div>
     </div>
     )

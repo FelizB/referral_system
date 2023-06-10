@@ -17,65 +17,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function Footer(){
         const year= new Date().getFullYear();
     return(
-            <div>
-            <div className="container">
-            <div className="grid-title">
-                    <h1>The Benefits</h1>
-                </div>
-                <div className="footer-start">
-                    <div>
-                        <div> stars goes here</div>
-                        <div>
-                            <h3>An <strong>award-winning</strong> platform. <strong>Loved</strong> by Customers</h3>
-                            <p>Based on 10,000+ customer reviews</p>
-                        </div>
-
-                    </div>
-                    <div>
-                        <div className="item-container">
-                            <div className="row">
-                                <div className="col-sm grid-item">
-                                    <div class="card">
-                                        <img class="card-img-top" src="..." alt="test"/>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-sm grid-item">
-                                    <div class="card">
-                                        <img class="card-img-top" src="..." alt="test"/>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-sm grid-item">
-                                    <div class="card">
-                                        <img class="card-img-top" src="..." alt="test"/>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div>
-                        <div>
-                            <h3>Get the best employee for the period <strong>with Referral Board</strong></h3>
-                            <h5>Easy and Simple to use "*" Efficient and trasparent processes  </h5>
-                        </div>
-                        <Link to="/sign"><button type="button" class="btn btn-primary btn-lg">Get started</button></Link>
-
-                    </div>
-
-                </div>
-        </div>
-        <div className="container container-footer">
+        <div className=" container-footer">
+        <div className="container">
             <hr />
             <div className="footer-middle">
                 <div className="row">

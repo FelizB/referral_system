@@ -1,13 +1,32 @@
 import React from "react";
 import "./css/landing.css";
+import "./css/venobox.css";
 import { Link } from "react-router-dom";
+import $ from 'jquery'; 
 import Rewarded from "../assets/images/completed.svg";
-
-
+import LandImage from "../assets/images/header-image.svg";
+import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 
 function Land(){
+        $(function (){
+            $(document).ready(function(){
+                $(".venobox").venobox();
+            })
+        })
+   
     return(
+        <div>
+           
         <div className="container">
+        <div className="shape shape-1"></div>
+        <div className="shape shape-2"></div>
+        <div className="shape shape-3"></div>
+        <div className="shape shape-4"></div>
+        <div className="shape shape-5"></div>
+        <div className="shape shape-6"></div>
+        <div className="land-background-image">
+            <img src={LandImage}/>
+        </div>
         <div className="row align-items-center justify-content-center justify-content-lg-between">
 
             <div className="col-lg-6 col-md-10">
@@ -16,7 +35,10 @@ function Land(){
                 <p className="text">Are you looking to promote employee reward system. Then look no further<br/>
                 The referal board is here to assist your company make that decision seamlessly and all you have to do is just reward.<br/>
                 Waste no time. <span>Make it work for your staff!!!</span> </p>
+                <div>
                 <Link to="/sign"><button type="button" class="btn btn-primary btn-lg">Join Us</button></Link>
+                <a className="round-circle-video venobox" data-autoplay="true" ata-vtype="video"><button type="button" class="btn btn-info rounded-circle"><PlayCircleFilledWhiteIcon/></button></a>
+                </div>
             </header>
             </div>
 
@@ -26,6 +48,7 @@ function Land(){
             </div>
             </div>
         </div>
+     </div>
      </div>
     )
 }
