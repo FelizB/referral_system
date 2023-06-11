@@ -18,7 +18,7 @@ function Testimonial(){
         <div className="grid-title">
         </div>
         <div >
-              <h1 >Ease To Use</h1>
+              <h1 ><strong>What our <span>clients say:</span></strong></h1>
               <p >Reward your staff with the best feature in the market
               <strong> Make them feel satisfied with their work</strong></p>
         </div>
@@ -47,8 +47,8 @@ function Testimonial(){
                   <img src={QuoteLeft} className="quote" alt="quote tags"/>
                 <div className="content">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    I am satisfied with the simplicity of the application. I was able to award the my best employees 
+                   
                     </p>
                 </div>
                 <img src={QuoteRight} className="quote2" alt="quote tags"/>
@@ -70,8 +70,7 @@ function Testimonial(){
                   <img src={QuoteLeft} className="quote" alt="quote tags"/>
                 <div className="content">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Wow, such a nice platform. As a staff, I enjoy helping my colleagues because together weremake it happen
                     </p>
                 </div>
                 <img src={QuoteRight} className="quote2" alt="quote tags"/>
@@ -80,7 +79,7 @@ function Testimonial(){
                         <img src={Rewarded} alt="Get rewarded" />
                       </div>
                       <h3>
-                        Felix Bosire <br/><span>Creative Designer</span>
+                        Felister Kyalo <br/><span>Relationship Officer</span>
                       </h3>
                 </div>
                 
@@ -93,8 +92,7 @@ function Testimonial(){
                   <img src={QuoteLeft} className="quote" alt="quote tags"/>
                 <div className="content">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    My staff are well motivated and eager to be awarded soon. Thanks to this platform 
                     </p>
                 </div>
                 <img src={QuoteRight} className="quote2" alt="quote tags"/>
@@ -103,7 +101,7 @@ function Testimonial(){
                         <img src={Rewarded} alt="Get rewarded" />
                       </div>
                       <h3>
-                        Felix Bosire <br/><span>Creative Designer</span>
+                        Kelvin Peterson <br/><span>Banker</span>
                       </h3>
                 </div>
                 
@@ -116,8 +114,7 @@ function Testimonial(){
                   <img src={QuoteLeft} className="quote" alt="quote tags"/>
                 <div className="content">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    My company has grown since I enrolled my staff to this platform. I cant wait to selectorwho gets the reward this time.
                     </p>
                 </div>
                 <img src={QuoteRight} className="quote2" alt="quote tags"/>
@@ -126,7 +123,7 @@ function Testimonial(){
                         <img src={Rewarded} alt="Get rewarded" />
                       </div>
                       <h3>
-                        Felix Bosire <br/><span>Creative Designer</span>
+                        Alvin Kenchap <br/><span>Food Store Owner</span>
                       </h3>
                 </div>
                 

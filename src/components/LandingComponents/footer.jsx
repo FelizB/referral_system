@@ -19,7 +19,10 @@ function Footer(){
     return(
         <div className=" container-footer">
         <div className="container">
-            <hr />
+            <div className="shape shape-7"></div>
+            <div className="shape shape-8"></div>
+            <div className="shape shape-9"></div>
+            <div className="shape shape-10"></div>
             <div className="footer-middle">
                 <div className="row">
                 <div className="col-md-4">

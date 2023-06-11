@@ -2,6 +2,9 @@ import React from "react";
 import "./css/landing.css";
 import { Link } from "react-router-dom";
 import Analysis from "../assets/images/analysis.svg";
+import Microsoft from "../assets/images/Microsoft.svg";
+import Google from "../assets/images/Google.svg";
+import Huawei from "../assets/images/Huawei.svg";
 import StarIcon from '@mui/icons-material/Star';
 
 function Partners(){
@@ -22,27 +25,28 @@ function Partners(){
                     <div className="row">
                         <div className="col-sm grid-item">
                             <div class="card">
-                                <img class="card-img-top" src="..." alt="test"/>
+                                <img class="card-img-top" src={Google} alt="test"/>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">
+                                    Partner for more than 10 years. We appreciate the confidence in us.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-sm grid-item">
                             <div class="card">
-                                <img class="card-img-top" src="..." alt="test"/>
+                                <img class="card-img-top" src={Microsoft} alt="test"/>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">Partner for more than 10 years. We appreciate the confidence in us.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-sm grid-item">
                             <div class="card">
-                                <img class="card-img-top" src="..." alt="test"/>
+                                <img class="card-img-top" src={Huawei} alt="test"/>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">Partner for more than 10 years. We appreciate the confidence in us.</p>
                                 </div>
                             </div>
                         </div>

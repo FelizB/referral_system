@@ -6,14 +6,12 @@ import $ from 'jquery';
 import Rewarded from "../assets/images/completed.svg";
 import LandImage from "../assets/images/header-image.svg";
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
+ const VenoBox = require("venobox");
 
 function Land(){
-        $(function (){
-            $(document).ready(function(){
-                $(".venobox").venobox();
-            })
-        })
-   
+    new VenoBox({
+        selector: ".venobox"
+    });
     return(
         <div>
            
@@ -37,7 +35,9 @@ function Land(){
                 Waste no time. <span>Make it work for your staff!!!</span> </p>
                 <div>
                 <Link to="/sign"><button type="button" class="btn btn-primary btn-lg">Join Us</button></Link>
-                <a className="round-circle-video venobox" data-autoplay="true" ata-vtype="video"><button type="button" class="btn btn-info rounded-circle"><PlayCircleFilledWhiteIcon/></button></a>
+                <a className="round-circle-video venobox" type="iframe" href="https://www.youtube.com/embed/1SqRm5m_T_Q" >
+                <PlayCircleFilledWhiteIcon class="btn btn-info rounded-circle"/>
+                </a>
                 </div>
             </header>
             </div>

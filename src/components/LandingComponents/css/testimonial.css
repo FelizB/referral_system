@@ -48,7 +48,7 @@
   .testimonialBox .details{
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     min-height: 8rem;
   }
   .testimonialBox .details .imgBx{
