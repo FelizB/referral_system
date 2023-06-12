@@ -17,10 +17,11 @@ function About(){
                 <img class="align-self-center mr-3 media-image" src={Background1} alt="Generic placeholder image"/>
                 <div class="media-body">
                     <h3 class="mt-0">Our History</h3>
-                    <p>On 31st December, 2014, Equity Building Society, as it had previously been known as, became Equity Group Holdings Limited, a non-operating holding company, after undergoing a process of restructuring, so as to further meet its objectives. 
-                    In 1984, Equity Building Society -now the bank arm of the group- was founded, 
-                    and has recorded various key milestones through the years</p>
-                    <p class="mb-0">Since then we have partnered with several organizations to archive the dream</p>
+                    <p>While still doing internship. I realised how much the administration was trying hard to promote
+                    team work among employees. They would speak about it on meetings and even promise to reward those who had the 
+                    set target for customer referrals to other colleagues considering they were dealing with different products
+                    and services. This inspred me to make this web app to support the administration in that task</p>
+                    
                 </div>
             </div>
                 <br />

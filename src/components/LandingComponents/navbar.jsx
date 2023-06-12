@@ -31,7 +31,7 @@ function Navbar(){
                     <li className="nav-items"><a href="#About">About Us</a></li>
                     <li className="nav-items"><a href="#Testimonial">Testimonials</a></li>
                     <li className="nav-items"><a href="#Faq">FAQ</a></li>
-                    <li className="nav-items"><a href="#Partners">Contacts</a></li>
+                    <li className="nav-items"><a href="#Footer">Contacts</a></li>
                 </ul>
             </div>
         </nav>
