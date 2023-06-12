@@ -14,7 +14,7 @@ function About(){
             </div>
             <br />
            <div class="media">
-                <img class="align-self-center mr-3 media-image" src={Background1} alt="Generic placeholder image"/>
+                <img class="align-self-center mr-3 media-image" src={Background1} alt="Generic placeholder"/>
                 <div class="media-body">
                     <h3 class="mt-0">Our History</h3>
                     <p>While still doing internship. I realised how much the administration was trying hard to promote
@@ -31,11 +31,11 @@ function About(){
                     <p>Transforming work spaces and making improving employees morales</p>
                     <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
-                <img class="align-self-center mr-3 media-image" src={Background2} alt="Generic placeholder image"/>
+                <img class="align-self-center mr-3 media-image" src={Background2} alt="Generic placeholder"/>
             </div>
             <br />
             <div class="media">
-                <img class="align-self-center mr-3 media-image" src={Background3} alt="Generic placeholder image"/>
+                <img class="align-self-center mr-3 media-image" src={Background3} alt="Generic placeholder"/>
                 <div class="media-body">
                     <h3 class="mt-0">Mission Statement</h3>
                     <p>We offer integrated financial services that socially and economically empower consumers, businesses and communities.</p>
@@ -51,7 +51,7 @@ function About(){
                     They are reflections of what we believe in and as guiding principles provide a standard through which we measure ourselves.</p>
                     
                 </div>
-                <img class="align-self-center mr-3 media-image" src={Background4} alt="Generic placeholder image"/>
+                <img class="align-self-center mr-3 media-image" src={Background4} alt="Generic placeholder"/>
             </div>
 
            

@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/landing.css";
-import { Link } from "react-router-dom";
 
 function Navbar(){
     window.onscroll = function (event){
@@ -20,11 +19,12 @@ function Navbar(){
     return(
         <nav id="nav" className="navbar">
             <div className="navbar-logo">
-                <a class="navbar-brand">
+                <a class="navbar-brand" href="#Land">
                  <span>Rf</span> Board
                 </a>
             </div>
             <div className="nav-items-container">
+              
                 <ul>
                     <li className="nav-items"><a href="#Land">Home</a></li>
                     <li className="nav-items"><a href="#Features">Features</a></li>

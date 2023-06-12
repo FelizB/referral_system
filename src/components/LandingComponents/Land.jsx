@@ -2,7 +2,6 @@ import React from "react";
 import "./css/landing.css";
 import "./css/venobox.css";
 import { Link } from "react-router-dom";
-import $ from 'jquery'; 
 import Rewarded from "../assets/images/completed.svg";
 import LandImage from "../assets/images/header-image.svg";
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
@@ -23,7 +22,7 @@ function Land(){
         <div className="shape shape-5"></div>
         <div className="shape shape-6"></div>
         <div className="land-background-image">
-            <img src={LandImage}/>
+            <img src={LandImage} alt="side cover"/>
         </div>
         <div className="row align-items-center justify-content-center justify-content-lg-between">
 

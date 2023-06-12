@@ -1,7 +1,5 @@
 import React from "react";
 import "./css/landing.css";
-import { Link } from "react-router-dom";
-import Analysis from "../assets/images/analysis.svg";
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import LanguageIcon from '@mui/icons-material/Language';
