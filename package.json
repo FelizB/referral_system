@@ -29,8 +29,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "eslintIgnore": ["About.jsx", "navbar.jsx"]
+    ]
   },
   "browserslist": {
     "production": [

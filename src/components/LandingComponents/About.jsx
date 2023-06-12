@@ -3,6 +3,10 @@ import Background1 from "../assets/images/background1.jpg";
 import Background2 from "../assets/images/background2.jpg";
 import Background3 from "../assets/images/background3.jpg";
 import Background4 from "../assets/images/background4.jpg";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 
 function About(){
     return(
@@ -11,6 +15,14 @@ function About(){
                 <h1 ><strong>What is Referal Board <span>all about?</span></strong></h1>
                 <p >Our services are meant to make difference in organizations by <br />
                 <strong>Transforming relationships and making the work environment feel more rewarding </strong></p>
+                <div className="social">
+                        <a href="https://github.com/FelizB/referral_system">Learn More</a>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/felix-bosire-679b93116/"><LinkedInIcon className="icons"/></a></li>
+                            <li><a href="https://twitter.com/FelantezBuzz"><TwitterIcon className="icons"/></a></li>
+                            <li><a href="https://github.com/FelizB"><GitHubIcon className="icons"/></a></li>
+                        </ul>
+                    </div>
             </div>
             <br />
            <div class="media">
@@ -21,7 +33,6 @@ function About(){
                     team work among employees. They would speak about it on meetings and even promise to reward those who had the 
                     set target for customer referrals to other colleagues considering they were dealing with different products
                     and services. This inspred me to make this web app to support the administration in that task</p>
-                    
                 </div>
             </div>
                 <br />

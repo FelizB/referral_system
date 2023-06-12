@@ -294,6 +294,24 @@ span{
     align-items: center;
     
 }
+.about-title .social ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+.about-title .social ul li{
+    margin-inline: 1rem;
+}
+.about-title .social a{
+    text-decoration: none;
+    color:#df8611 ;
+}
+.about-title .social a:hover{
+    color:#973320 ;
+}
+.about-title .social ul li .icons{
+    fill: #973320;
+}
 .grid{
     display: grid;
     width: 114em;
