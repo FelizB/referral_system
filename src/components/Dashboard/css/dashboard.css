@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.dashboard{
+    background-color: aliceblue;
+}
+.dashnavbar{
+    background-color: #fff !important;
+}
+.sidebar{
+    max-width: 200px;
+    min-height: 90vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+.sidebar-icons{
+    margin-right: 1rem;
+    fill:#973320 !important;
+}
+.nav-link{
+    color: black;
+}
+.nav-link-title{
+    font-weight: 800;
+}
+.form-inline{
+    display: flex;
+}
+.dropdown{
+    position: absolute;
+    top:15%;
+    left:70%;
+}

@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/landing.css";
+import MenuIcon from '@mui/icons-material/Menu';
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 function Navbar(){
     window.onscroll = function (event){
@@ -15,7 +17,18 @@ function Navbar(){
            item.setAttribute("class", "navbar");
         }
         }
-
+    
+    function OpenMenu(){
+        var icon = document.querySelector("#navitems");
+        if(icon.style.display === "block"){
+            icon.style.display = "none";
+            
+        }else{
+            icon.style.display= "block"
+            let item= document.querySelector("#nav");
+            item.setAttribute("class", "navbar navbar-scroll");
+        }
+    }
     return(
         <nav id="nav" className="navbar">
             <div className="navbar-logo">
@@ -23,8 +36,10 @@ function Navbar(){
                  <span>Rf</span> Board
                 </a>
             </div>
-            <div className="nav-items-container">
-              
+            <a id="NavCollapse" className="NavCollapse" href="#nav" onClick={OpenMenu}>
+                <MenuIcon className="menu" />
+            </a>
+            <div id="navitems" className="nav-items-container">
                 <ul>
                     <li className="nav-items"><a href="#Land">Home</a></li>
                     <li className="nav-items"><a href="#Features">Features</a></li>
