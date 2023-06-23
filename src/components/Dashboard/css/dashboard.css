@@ -1,19 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .dashboard{
+    position: relative;
     background-color: aliceblue;
+    display:flex;
+    max-height:100vh;
+    width: 100%;
 }
+.container{
+    margin-top: 1rem;
+    max-height: 87vh;
+    overflow: auto;
+}
+
 .dashnavbar{
     background-color: #fff !important;
 }
 .sidebar{
-    max-width: 200px;
-    min-height: 90vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
+    padding-inline-end: 1px;
 }
 .sidebar-icons{
-    margin-right: 1rem;
+    margin-top: 9px;
     fill:#973320 !important;
+    width: 22px !important;
+    height: 22px !important;
+   
 }
 .nav-link{
     color: black;
@@ -21,8 +34,38 @@
 .nav-link-title{
     font-weight: 800;
 }
+.navbar-logo{
+    margin-top: -7px;
+    margin-left: -15px;
+    display: flex;
+    position: relative;
+}
+.navbar-menu-icon{
+    position: absolute;
+    right: -50px;
+    align-self: center;
+    z-index: 999999;
+}
+.navbar-search-section{
+    margin-left: 50px;
+}
 .form-inline{
     display: flex;
+}
+.dashboardMainContainer{
+    background-color: #f5efef;
+    height: 100vh;
+    width: 100%;
+
+    overflow:auto;
+
+}
+
+.nav-item{
+    display: flex;
+    transition: all 0.5s;
+    text-decoration: none;
+    margin-left: 12px;
 }
 .dropdown{
     position: absolute;

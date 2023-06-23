@@ -158,6 +158,7 @@
 }
  
 .header-image img{
+    align-self: center;
     margin:3.5rem 0rem 0rem -5rem;
     max-height: 70vh;
     animation: bounceTop 2s ease infinite;
@@ -333,6 +334,8 @@ span{
     height: 100%;
     display: flex;
     align-items: center;
+    align-self: center;
+    text-align: center;
 }
 .features-Section .grid-item .card .card-img{
     padding-inline: 30%;
@@ -348,6 +351,7 @@ span{
 .features-Section .grid-item .card .Pink{
     fill: pink;
 }
+
 .grid-item .card{
     background-color: #fff;
     border-radius: 1rem;
@@ -577,6 +581,7 @@ span{
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (max-width : 480px) {
+   
 }
 
 
@@ -589,8 +594,10 @@ and (min-width : 321px) {
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 320px) {
-    
+and (max-width : 577px) {
+    .row{
+        display: inline-block;
+    }
    
 }
 @media only screen 
@@ -636,6 +643,7 @@ and (max-width : 890px) {
         top: 10%;
        
     }
+    
    
     
 }
