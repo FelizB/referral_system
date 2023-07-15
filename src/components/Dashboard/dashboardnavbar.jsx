@@ -19,8 +19,16 @@ function DashboardNavbar (){
                     <li className="nav-items"><a href="#Footer">Contacts</a></li>
                 </ul>
             </div>
-            <div>
-                <Button endIcon={<SettingsIcon/>}></Button>
+            <div className="profile2 btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                        <SettingsIcon/>
+                    </button>
+                    <ul className="dropdown-menu">
+                            <li>Profile</li>
+                            <li>Inbox</li>
+                            <li>Chat</li>
+                            <li>settings</li>
+                    </ul>
             </div>
         </nav>
         )
