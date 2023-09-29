@@ -12,13 +12,13 @@ import {createBrowserRouter, RouterProvider,createRoutesFromElements, Route} fro
 const router= createBrowserRouter(
     createRoutesFromElements(
         <Route>
-        <Route path="me" element={<Landingpage/>} />,
+        <Route path="/" element={<Landingpage/>} />,
         <Route path="sign" element={<Sign/>}/>,
         <Route path="signup" element={<SignUp />}/>,
         <Route path="landing" element={<Landingpage/>}>
             
         </Route>,
-        <Route path="/" element={<DashBoard />}>
+        <Route path="me" element={<DashBoard />}>
             <Route path="/" element={<Dashboard />} />
             <Route path="analytics" element={<Analytics />}/>
             <Route path="products" element={<Products />}/>
